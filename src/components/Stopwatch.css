@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    padding: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
