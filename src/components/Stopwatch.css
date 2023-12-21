@@ -56,3 +56,29 @@ button.btn:hover{
     margin-top: 15px;
 }
 
+.laps h3{
+    text-align: left;
+    display: flexbox;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.laps ul{
+    list-style-type: none;
+    padding: auto;
+}
+
+.laps li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 5px 10px 5px;
+}
+
+@media screen and (max-width: 420px){
+    .buttons{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
