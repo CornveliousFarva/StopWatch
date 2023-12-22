@@ -1,12 +1,15 @@
-import './App.css';
-import Stopwatch from './components/Stopwatch';
+// App.js 
 
-function App() {
-  return (
-    <div className="App">
-      <Stopwatch />
-    </div>
-  );
-}
+import './App.css'; 
+import StopWatch from './components/StopWatch'; 
 
-export default App;
+function App() { 
+return ( 
+	<div className="App"> 
+	<StopWatch /> 
+	</div> 
+); 
+} 
+
+export default App; 
+

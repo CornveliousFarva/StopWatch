@@ -1,6 +1,6 @@
 // StopWatch.js 
 import React, { useState, useEffect } from "react"; 
-import "./StopWatch.css"; 
+import "src/components/StopWatch.css"; 
 import Lap from "./Lap"; 
 
 export default function StopWatch() { 
